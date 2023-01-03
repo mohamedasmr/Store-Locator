@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const path = require("path");
 const cors = require("cors");
-const connectDB = require("./config/db");
+const connectDB = require("./middleware/db");
 const storeRouter = require("./routers/stores");
 
 // Load env
